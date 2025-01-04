@@ -1,6 +1,29 @@
 {
 	"name": "svelte-reactive-bloc",
 	"version": "0.0.1",
+	"description": " Bloc.js provides a powerful and flexible way to manage state and events in your JavaScript applications. With its reactive architecture, support for multiple subscriptions, auto-execution options, and event abort capabilities, Bloc.js is designed to streamline complex state management and asynchronous workflows. ",
+	"author": "Artin Zarghami dev.zarghami@gmail.com",
+	"license": "MIT",
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/"
+	},
+	"keywords": [
+		"reactivity",
+		"rxjs",
+		"bloc-pattern",
+		"state-management",
+		"event-driven",
+		"dispatch-system",
+		"svelte",
+		"dynamic-events",
+		"observable",
+		"svelte-kit",
+		"reactive-programming",
+		"rxjs-bloc",
+		"component-logic",
+		"svelte-bloc",
+		"event-handling"
+	],
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -18,6 +41,8 @@
 	"sideEffects": [
 		"**/*.css"
 	],
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"type": "module",
@@ -28,7 +53,7 @@
 		}
 	},
 	"peerDependencies": {
-		"svelte": "^5.0.0"
+		"svelte": "^4.0.0"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
@@ -43,5 +68,8 @@
 	},
 	"dependencies": {
 		"rxjs": "^7.8.1"
+	},
+	"engines": {
+		"node": ">=16.0.0"
 	}
 }
