@@ -3,6 +3,9 @@
 
 This repository contains an implementation of a **Bloc** pattern for state management using **RxJS**. It supports dispatching events, managing subscriptions, handling errors, and provides an `autoExec` option to manually execute events when needed.
 
+
+![Svelte Reactive Bloc](https://raw.githubusercontent.com/devzarghami/svelte-reactive-bloc/refs/heads/main/svelte-reactive-bloc.jpg?raw=true)
+
 ## Features
 
 - **Event dispatching**: Dispatch events and handle responses asynchronously.
